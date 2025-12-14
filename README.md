@@ -1,4 +1,4 @@
-# isp-downsampling
+no# isp-downsampling
 test image and python scripts designed to test the ISP hardware downsampling behvaiour
 
 Platform: RK3588 - Rockchip ISP 3 driver version: v02.09.00 - Debian Linux 6.1
@@ -14,6 +14,6 @@ Viewer used: https://github.com/IENT/YUView
 - `nv12_downsample_avg.py` - YUV pixel averaging script
 - `nv12_downsample_skip.py` - YUV pixel skipping script
 
-example usage: `python nv12_downsample_skip.py input1920x1200.nv12 output640x400.nv12`
+example usage: `python nv12_downsample_skip.py input1920x1200.nv12 output640x400.nv12` requires numpy
 
 YUV image captured through V4L2 `--stream-to=frame.nv12`
