@@ -1,6 +1,3 @@
-no# isp-downsampling
-test image and python scripts designed to test the ISP hardware downsampling behvaiour
-
 Platform: RK3588 - Rockchip ISP 3 driver version: v02.09.00 - Debian Linux 6.1
 
 Viewer used: https://github.com/IENT/YUView
