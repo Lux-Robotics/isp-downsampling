@@ -4,7 +4,7 @@ Viewer used: https://github.com/IENT/YUView
 
 - `1920x1200frame.nv12` - raw YUV full resolution greyscale ISP output
 - `640x400frame.nv12` - 1/3 downsampled ISP output
-- `python_avg640x400.nv12` - 1/3 downsampled Python script output using pixel averaging (low-pass filter + decimattion)
+- `python_avg640x400.nv12` - 1/3 downsampled Python script output using pixel averaging (low-pass filter + decimation)
 - `python_skip640x400.nv12` - 1/3 downsampled Python script output using pixel skipping (decimation)
 
 
